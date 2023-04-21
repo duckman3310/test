@@ -1,0 +1,4 @@
+world_population = int(input("ведите количество людей в мире: "))
+country_population = int(input("ведите количество людей в США: "))
+percentage = (country_population / world_population) * 100
+print("Процент людей в сша состовляет: " + str(percentage) + "% от всего мира")
